@@ -3,223 +3,370 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Xpert Tilers - Professional Tiling services in Pretoria, Gauteng. Call 073-456-7890 for reliable, affordable service.">
-    <meta name="keywords" content="Xpert Tilers, Tiling, Pretoria, Gauteng, local service, professional">
+    <meta name="description" content="Xpert Tilers - Professional floor tiling, wall tiling in Pretoria, Gauteng. Call 073-456-7890 for reliable, affordable service.">
+    <meta name="keywords" content="Xpert Tilers, Floor Tiling, Wall Tiling, Bathroom Tiling, Kitchen Backsplash, Pretoria, Gauteng">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Xpert Tilers | Professional Services in Pretoria, Gauteng">
-    <meta property="og:description" content="Professional Tiling services in Pretoria, Gauteng. Call 073-456-7890 today!">
+    <meta property="og:title" content="Xpert Tilers | Pretoria, Gauteng">
+    <meta property="og:description" content="Professional floor tiling in Pretoria, Gauteng. Call 073-456-7890!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://youngstunners88.github.io/xpert-tilers/">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Xpert Tilers">
-    <meta name="twitter:description" content="Professional services in Pretoria, Gauteng">
-    <title>Xpert Tilers | Professional Services in Pretoria, Gauteng</title>
+    <title>Xpert Tilers | Professional Floor Tiling in Pretoria, Gauteng</title>
     <link rel="canonical" href="https://youngstunners88.github.io/xpert-tilers/">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Structured Data for SEO + AEO -->
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Xpert Tilers", "telephone": "073-456-7890", "address": {"@type": "PostalAddress", "streetAddress": "280 Retief Street, Pretoria West, Pretoria", "addressLocality": "Pretoria, Gauteng"}, "areaServed": "Pretoria, Gauteng", "description": "Xpert Tilers - Professional Tiling services in Pretoria, Gauteng", "url": "https://youngstunners88.github.io/xpert-tilers/"}</script>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What services does Xpert Tilers offer?", "acceptedAnswer": {"@type": "Answer", "text": "Xpert Tilers offers Tiling and more professional services in Pretoria, Gauteng."}}, {"@type": "Question", "name": "How do I contact Xpert Tilers?", "acceptedAnswer": {"@type": "Answer", "text": "You can reach Xpert Tilers by phone at 073-456-7890 or visit us at 280 Retief Street, Pretoria West, Pretoria."}}, {"@type": "Question", "name": "Where is Xpert Tilers located?", "acceptedAnswer": {"@type": "Answer", "text": "Xpert Tilers is located at 280 Retief Street, Pretoria West, Pretoria, serving the Pretoria, Gauteng area."}}, {"@type": "Question", "name": "Does Xpert Tilers offer emergency services?", "acceptedAnswer": {"@type": "Answer", "text": "Contact Xpert Tilers at 073-456-7890 to inquire about emergency and after-hours services."}}]}</script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Xpert Tilers", "telephone": "073-456-7890", "address": {"@type": "PostalAddress", "streetAddress": "280 Retief Street, Pretoria West, Pretoria", "addressLocality": "Pretoria, Gauteng"}, "areaServed": "Pretoria, Gauteng", "description": "Xpert Tilers - Professional floor tiling, wall tiling in Pretoria, Gauteng", "url": "https://youngstunners88.github.io/xpert-tilers/"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What services does Xpert Tilers offer?", "acceptedAnswer": {"@type": "Answer", "text": "Xpert Tilers provides professional floor tiling, wall tiling, bathroom tiling and more in Pretoria, Gauteng. We are committed to delivering top-quality service at competitive rates."}}, {"@type": "Question", "name": "How do I contact Xpert Tilers?", "acceptedAnswer": {"@type": "Answer", "text": "Call us directly at 073-456-7890 or visit our location at 280 Retief Street, Pretoria West, Pretoria. We're available during business hours and for emergency services."}}, {"@type": "Question", "name": "Where is Xpert Tilers located?", "acceptedAnswer": {"@type": "Answer", "text": "We are based at 280 Retief Street, Pretoria West, Pretoria, proudly serving Pretoria, Gauteng and surrounding areas."}}, {"@type": "Question", "name": "Does Xpert Tilers offer free quotes?", "acceptedAnswer": {"@type": "Answer", "text": "Yes! Contact us at 073-456-7890 for a free, no-obligation quote. We believe in transparent pricing with no hidden costs."}}]}</script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --primary: #1A1A2E;
-            --secondary: #16213E;
-            --accent: #0F3460;
-            --text: #1a1a1a;
-            --light: #f8f9fa;
-            --white: #ffffff;
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--primary:#8B5E3C;--secondary:#C4956A;--text:#1a1a2e;--text-light:#555;--bg:#fafafa;--white:#fff;--radius:16px;--shadow:0 4px 24px rgba(0,0,0,0.08)}
+        body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--text);line-height:1.7;overflow-x:hidden;background:var(--bg)}
+        
+        /* NAV */
+        .nav{position:fixed;top:0;width:100%;z-index:1000;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;transition:all .3s}
+        .nav.scrolled{background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);box-shadow:0 2px 20px rgba(0,0,0,0.08)}
+        .nav-logo{display:flex;align-items:center;gap:.75rem;text-decoration:none;color:white}
+        .nav.scrolled .nav-logo{color:var(--text)}
+        .logo-mark{width:44px;height:44px;border-radius:12px;background:var(--primary);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:white;letter-spacing:-0.5px}
+        .logo-text{font-weight:700;font-size:1.1rem}
+        .nav-cta{background:white;color:var(--primary);padding:.6rem 1.5rem;border-radius:50px;text-decoration:none;font-weight:600;font-size:.9rem;transition:all .3s;display:flex;align-items:center;gap:.5rem}
+        .nav.scrolled .nav-cta{background:var(--primary);color:white}
+        .nav-cta:hover{transform:scale(1.05)}
+        
+        /* HERO */
+        .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;color:white;position:relative;background-image: linear-gradient(135deg, #8B5E3Cdd 0%, #C4956Aaa 100%), url('https://raw.githubusercontent.com/youngstunners88/site-assets/main/hero_tiling.jpg');background-size: cover; background-position: center; background-blend-mode: overlay;}
+        .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.4) 100%)}
+        .hero-content{position:relative;z-index:2;text-align:center;max-width:900px;padding:2rem;animation:fadeUp .8s ease}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+        .hero-badge{display:inline-block;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px);padding:.5rem 1.5rem;border-radius:50px;font-size:.85rem;font-weight:500;margin-bottom:1.5rem;border:1px solid rgba(255,255,255,0.3)}
+        .hero h1{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:800;margin-bottom:1rem;letter-spacing:-1px;line-height:1.1}
+        .hero p{font-size:clamp(1rem,2vw,1.3rem);opacity:.9;margin-bottom:2.5rem;max-width:650px;margin-left:auto;margin-right:auto}
+        .hero-buttons{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+        .btn{padding:1rem 2.5rem;border-radius:50px;font-size:1.05rem;font-weight:600;text-decoration:none;transition:all .3s;display:inline-flex;align-items:center;gap:.5rem;border:none;cursor:pointer}
+        .btn-white{background:white;color:var(--primary);box-shadow:0 4px 20px rgba(0,0,0,0.15)}
+        .btn-white:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,0.2)}
+        .btn-outline{background:transparent;color:white;border:2px solid rgba(255,255,255,0.6)}
+        .btn-outline:hover{background:white;color:var(--primary);border-color:white}
+        
+        /* TRUST BAR */
+        .trust-bar{background:var(--white);padding:2rem;text-align:center;border-bottom:1px solid #eee}
+        .trust-items{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;max-width:1000px;margin:0 auto}
+        .trust-item{display:flex;align-items:center;gap:.5rem;font-size:.95rem;color:var(--text-light);font-weight:500}
+        .trust-item span{font-size:1.3rem}
+        
+        /* SECTIONS */
+        section{padding:5rem 2rem}
+        .section-header{text-align:center;margin-bottom:3.5rem}
+        .section-header .label{color:var(--primary);font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:2px;margin-bottom:.5rem}
+        .section-header h2{font-size:clamp(2rem,4vw,2.8rem);font-weight:800;letter-spacing:-0.5px;margin-bottom:.75rem}
+        .section-header p{color:var(--text-light);font-size:1.05rem;max-width:550px;margin:0 auto}
+        
+        /* SERVICES */
+        .services-section{background:var(--white)}
+        .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;max-width:1200px;margin:0 auto}
+        .service-card{background:var(--bg);padding:2rem;border-radius:var(--radius);transition:all .3s;border:1px solid transparent}
+        .service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--primary)}
+        .service-icon{font-size:2rem;margin-bottom:.75rem}
+        .service-card h3{font-size:1.15rem;font-weight:700;margin-bottom:.5rem}
+        .service-card p{color:var(--text-light);font-size:.9rem;line-height:1.6}
+        
+        /* ABOUT */
+        .about-section{background:var(--bg)}
+        .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;max-width:1100px;margin:0 auto;align-items:center}
+        .about-visual{background:linear-gradient(135deg,var(--primary),var(--secondary));border-radius:var(--radius);padding:3rem;color:white;text-align:center;min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+        .about-visual .big-icon{font-size:5rem;margin-bottom:1rem}
+        .about-visual h3{font-size:1.8rem;font-weight:800}
+        .about-text h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+        .about-text p{color:var(--text-light);margin-bottom:1rem;font-size:1.05rem}
+        .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem}
+        .stat{background:var(--white);padding:1.25rem;border-radius:12px;text-align:center}
+        .stat .number{font-size:1.8rem;font-weight:800;color:var(--primary)}
+        .stat .label{font-size:.8rem;color:var(--text-light);text-transform:uppercase;letter-spacing:1px}
+        
+        /* WHY US */
+        .why-section{background:var(--white)}
+        .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;max-width:1100px;margin:0 auto}
+        .why-card{text-align:center;padding:2rem}
+        .why-card .why-icon{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,var(--primary),var(--secondary));display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin:0 auto 1rem;color:white}
+        .why-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
+        .why-card p{color:var(--text-light);font-size:.9rem}
+        
+        /* FAQ */
+        .faq-section{background:var(--bg)}
+        .faq-container{max-width:750px;margin:0 auto}
+        .faq-item{background:var(--white);margin-bottom:.75rem;border-radius:12px;overflow:hidden;border:1px solid #eee}
+        .faq-toggle{width:100%;padding:1.25rem 1.5rem;display:flex;justify-content:space-between;align-items:center;background:none;border:none;cursor:pointer;font-family:inherit}
+        .faq-toggle h3{font-size:1rem;font-weight:600;text-align:left;color:var(--text)}
+        .faq-icon{font-size:1.5rem;color:var(--primary);transition:transform .3s;font-weight:300}
+        .faq-toggle[aria-expanded="true"] .faq-icon{transform:rotate(45deg)}
+        .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
+        .faq-answer p{padding:0 1.5rem 1.25rem;color:var(--text-light);font-size:.95rem}
+        
+        /* CTA */
+        .cta-section{background:linear-gradient(135deg,var(--primary),var(--secondary));color:white;text-align:center;padding:5rem 2rem}
+        .cta-section h2{font-size:clamp(2rem,4vw,3rem);font-weight:800;margin-bottom:1rem}
+        .cta-section p{font-size:1.1rem;opacity:.9;margin-bottom:2rem;max-width:600px;margin-left:auto;margin-right:auto}
+        .cta-section .btn-white{font-size:1.15rem;padding:1.1rem 3rem}
+        
+        /* FOOTER */
+        footer{background:#1a1a2e;color:rgba(255,255,255,0.7);padding:3rem 2rem}
+        .footer-content{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem}
+        .footer-brand .logo-mark{background:rgba(255,255,255,0.1);margin-bottom:1rem}
+        .footer-brand p{font-size:.9rem;line-height:1.7;margin-top:.75rem}
+        .footer-col h4{color:white;font-weight:600;margin-bottom:1rem;font-size:.95rem}
+        .footer-col a{display:block;color:rgba(255,255,255,0.6);text-decoration:none;padding:.25rem 0;font-size:.9rem;transition:color .2s}
+        .footer-col a:hover{color:white}
+        .footer-bottom{max-width:1100px;margin:2rem auto 0;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.1);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+        .social-links h4{color:white;font-weight:600;margin-bottom:.75rem;font-size:.95rem}
+        .social-icons{display:flex;gap:.75rem}
+        .social-link{color:rgba(255,255,255,0.6);transition:color .2s;display:flex;align-items:center}
+        .social-link:hover{color:white}
+        .footer-copy{font-size:.85rem}
+        
+        /* MOBILE */
+        @media(max-width:768px){
+            .hero{min-height:90vh}
+            section{padding:3.5rem 1.5rem}
+            .about-grid{grid-template-columns:1fr;gap:2rem}
+            .footer-content{grid-template-columns:1fr}
+            .nav-cta span{display:none}
+            .trust-items{gap:1.5rem}
         }
-        body { font-family: 'Inter', sans-serif; color: var(--text); line-height: 1.6; overflow-x: hidden; }
         
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white; min-height: 100vh; display: flex; align-items: center;
-            position: relative; overflow: hidden;
-        }
-        .hero::before {
-            content: ''; position: absolute; top: -50%; right: -50%;
-            width: 100%; height: 100%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
-            animation: float 6s ease-in-out infinite;
-        }
-        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(30px); } }
-        .hero-content { max-width: 1200px; margin: 0 auto; padding: 2rem; position: relative; z-index: 1; text-align: center; }
-        .hero h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 800; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
-        .hero p { font-size: clamp(1.1rem, 2.5vw, 1.4rem); opacity: 0.95; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; }
-        .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-        .btn {
-            padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.1rem; font-weight: 600;
-            text-decoration: none; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem;
-        }
-        .btn-primary { background: white; color: var(--primary); box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.3); }
-        .btn-secondary { background: transparent; color: white; border: 2px solid white; }
-        .btn-secondary:hover { background: white; color: var(--primary); }
-        
-        /* Sections */
-        section { padding: 5rem 2rem; }
-        .section-title { text-align: center; margin-bottom: 3rem; }
-        .section-title h2 { font-size: 2.5rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem; }
-        .section-title p { font-size: 1.1rem; color: #666; max-width: 600px; margin: 0 auto; }
-        
-        /* Services */
-        .services { background: var(--light); }
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
-        .service-card {
-            background: white; padding: 2rem; border-radius: 16px; text-align: center;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.3s ease;
-        }
-        .service-card:hover { transform: translateY(-5px); }
-        .service-icon { font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary); }
-        .service-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
-        
-        /* About */
-        .about-content { max-width: 800px; margin: 0 auto; text-align: center; }
-        .about-content p { font-size: 1.1rem; color: #555; margin-bottom: 1.5rem; }
-        
-        /* Contact */
-        .contact { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; }
-        .contact .section-title h2, .contact .section-title p { color: white; }
-        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; }
-        .contact-card { background: rgba(255,255,255,0.15); padding: 2rem; border-radius: 16px; text-align: center; backdrop-filter: blur(10px); }
-        .contact-card h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
-        .contact-card p { opacity: 0.9; }
-        .contact-card a { color: white; text-decoration: none; font-weight: 600; }
-        
-        /* FAQ for AEO */
-        .faq { background: var(--light); }
-        .faq-item { max-width: 800px; margin: 0 auto 1.5rem; background: white; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-        .faq-item h3 { color: var(--primary); margin-bottom: 0.5rem; font-size: 1.1rem; }
-        .faq-item p { color: #555; }
-        
-        /* Footer */
-        footer {
-            background: #1a1a2e; color: rgba(255,255,255,0.7); text-align: center;
-            padding: 2rem; font-size: 0.9rem;
-        }
-        footer a { color: var(--accent); text-decoration: none; }
-        
-        /* Mobile */
-        @media (max-width: 768px) {
-            .hero { min-height: 80vh; }
-            section { padding: 3rem 1.5rem; }
-            .services-grid { grid-template-columns: 1fr; }
-        }
-        
-        /* Animations */
-        .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s ease; }
-        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        /* SCROLL ANIMATIONS */
+        .reveal{opacity:0;transform:translateY(24px);transition:all .6s cubic-bezier(.16,1,.3,1)}
+        .reveal.visible{opacity:1;transform:translateY(0)}
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
+    <nav class="nav" id="nav">
+        <a href="#" class="nav-logo">
+            <div class="logo-mark">XT</div>
+            <span class="logo-text">Xpert Tilers</span>
+        </a>
+        <a href="tel:0734567890" class="nav-cta">📞 <span>Call 073-456-7890</span></a>
+    </nav>
+
     <section class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
+            <div class="hero-badge">🧱 Trusted Local Service Provider</div>
             <h1>Xpert Tilers</h1>
-            <p>Professional Tiling services in Pretoria, Gauteng. Trusted by the community for quality and reliability.</p>
-            <div class="cta-buttons">
-                <a href="tel:0734567890" class="btn btn-primary">📞 Call Now: 073-456-7890</a>
-                <a href="#services" class="btn btn-secondary">Our Services</a>
+            <p>Professional floor tiling serving Pretoria, Gauteng. Quality work, honest pricing, guaranteed satisfaction.</p>
+            <div class="hero-buttons">
+                <a href="tel:0734567890" class="btn btn-white">📞 Call Now: 073-456-7890</a>
+                <a href="#services" class="btn btn-outline">View Services</a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="section-title">
+    <div class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item"><span>✅</span> Licensed & Insured</div>
+            <div class="trust-item"><span>⭐</span> 5-Star Rated</div>
+            <div class="trust-item"><span>⚡</span> Fast Response</div>
+            <div class="trust-item"><span>💰</span> Free Quotes</div>
+        </div>
+    </div>
+
+    <section class="services-section" id="services">
+        <div class="section-header reveal">
+            <div class="label">What We Do</div>
             <h2>Our Services</h2>
-            <p>Professional solutions tailored to your needs</p>
+            <p>Comprehensive solutions tailored to your needs</p>
         </div>
         <div class="services-grid">
-            <div class="service-card"><div class="service-icon">✓</div><h3>Tiling</h3></div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="section-title">
-            <h2>About Xpert Tilers</h2>
-        </div>
-        <div class="about-content">
-            <p>Xpert Tilers is your trusted local service provider in Pretoria, Gauteng. We take pride in delivering high-quality, professional services to our community.</p>
-            <p>With years of experience and a commitment to customer satisfaction, we ensure every job is done right the first time.</p>
-        </div>
-    </section>
-
-    <!-- FAQ Section (AEO Optimized) -->
-    <section class="faq" id="faq" itemscope itemtype="https://schema.org/FAQPage">
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <h3 itemprop="name">What services does Xpert Tilers offer?</h3>
-              <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p itemprop="text">Xpert Tilers offers Tiling and more professional services in Pretoria, Gauteng.</p>
-              </div>
+            <div class="service-card">
+              <div class="service-icon">🔧</div>
+              <h3>Floor Tiling</h3>
+              <p>Professional, reliable floor tiling service. Quality workmanship guaranteed.</p>
             </div>
-
-            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <h3 itemprop="name">How do I contact Xpert Tilers?</h3>
-              <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p itemprop="text">You can reach Xpert Tilers by phone at 073-456-7890 or visit us at 280 Retief Street, Pretoria West, Pretoria.</p>
-              </div>
+            <div class="service-card">
+              <div class="service-icon">⚡</div>
+              <h3>Wall Tiling</h3>
+              <p>Professional, reliable wall tiling service. Quality workmanship guaranteed.</p>
             </div>
-
-            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <h3 itemprop="name">Where is Xpert Tilers located?</h3>
-              <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p itemprop="text">Xpert Tilers is located at 280 Retief Street, Pretoria West, Pretoria, serving the Pretoria, Gauteng area.</p>
-              </div>
+            <div class="service-card">
+              <div class="service-icon">🏗️</div>
+              <h3>Bathroom Tiling</h3>
+              <p>Professional, reliable bathroom tiling service. Quality workmanship guaranteed.</p>
             </div>
-
-            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <h3 itemprop="name">Does Xpert Tilers offer emergency services?</h3>
-              <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p itemprop="text">Contact Xpert Tilers at 073-456-7890 to inquire about emergency and after-hours services.</p>
-              </div>
+            <div class="service-card">
+              <div class="service-icon">✅</div>
+              <h3>Kitchen Backsplash</h3>
+              <p>Professional, reliable kitchen backsplash service. Quality workmanship guaranteed.</p>
             </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="section-title">
-            <h2>Get In Touch</h2>
-            <p>Ready to get started? Contact us today!</p>
-        </div>
-        <div class="contact-grid">
-            <div class="contact-card">
-                <h3>📞 Phone</h3>
-                <p><a href="tel:0734567890">073-456-7890</a></p>
+            <div class="service-card">
+              <div class="service-icon">🛡️</div>
+              <h3>Outdoor Tiling</h3>
+              <p>Professional, reliable outdoor tiling service. Quality workmanship guaranteed.</p>
             </div>
-            <div class="contact-card">
-                <h3>📍 Location</h3>
-                <p>280 Retief Street, Pretoria West, Pretoria</p>
-            </div>
-            <div class="contact-card">
-                <h3>⏰ Hours</h3>
-                <p>Mon - Fri: 7:00 AM - 6:00 PM<br>Sat: 8:00 AM - 2:00 PM</p>
+            <div class="service-card">
+              <div class="service-icon">⭐</div>
+              <h3>Tile Repair</h3>
+              <p>Professional, reliable tile repair service. Quality workmanship guaranteed.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section class="about-section" id="about">
+        <div class="about-grid">
+            <div class="about-visual reveal">
+                <div class="big-icon">🧱</div>
+                <h3>Serving Pretoria, Gauteng</h3>
+            </div>
+            <div class="about-text reveal">
+                <h2>About Xpert Tilers</h2>
+                <p>Xpert Tilers is your trusted local service provider in Pretoria, Gauteng. We take pride in delivering professional, high-quality work that exceeds expectations.</p>
+                <p>Our experienced team is dedicated to solving your problems quickly and efficiently, with transparent pricing and guaranteed satisfaction.</p>
+                <div class="about-stats">
+                    <div class="stat"><div class="number">🧱</div><div class="label">Expert Team</div></div>
+                    <div class="stat"><div class="number">24/7</div><div class="label">Availability</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-section">
+        <div class="section-header reveal">
+            <div class="label">Why Choose Us</div>
+            <h2>The Xpert Difference</h2>
+        </div>
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <div class="why-icon">🏆</div>
+                <h3>Quality Guaranteed</h3>
+                <p>Every job is done right the first time, backed by our satisfaction guarantee.</p>
+            </div>
+            <div class="why-card reveal">
+                <div class="why-icon">💬</div>
+                <h3>Transparent Pricing</h3>
+                <p>No hidden fees or surprises. Get a clear quote before any work begins.</p>
+            </div>
+            <div class="why-card reveal">
+                <div class="why-icon">🕐</div>
+                <h3>On-Time Service</h3>
+                <p>We respect your time. Punctual arrivals and efficient completion every time.</p>
+            </div>
+            <div class="why-card reveal">
+                <div class="why-icon">🤝</div>
+                <h3>Local & Trusted</h3>
+                <p>Proudly serving Pretoria, Gauteng. Your neighbours trust us, and so can you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="section-header reveal">
+            <div class="label">FAQ</div>
+            <h2>Common Questions</h2>
+        </div>
+        <div class="faq-container">
+
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <button class="faq-toggle" aria-expanded="false">
+                <h3 itemprop="name">What services does Xpert Tilers offer?</h3>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">Xpert Tilers provides professional floor tiling, wall tiling, bathroom tiling and more in Pretoria, Gauteng. We are committed to delivering top-quality service at competitive rates.</p>
+              </div>
+            </div>
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <button class="faq-toggle" aria-expanded="false">
+                <h3 itemprop="name">How do I contact Xpert Tilers?</h3>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">Call us directly at 073-456-7890 or visit our location at 280 Retief Street, Pretoria West, Pretoria. We're available during business hours and for emergency services.</p>
+              </div>
+            </div>
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <button class="faq-toggle" aria-expanded="false">
+                <h3 itemprop="name">Where is Xpert Tilers located?</h3>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">We are based at 280 Retief Street, Pretoria West, Pretoria, proudly serving Pretoria, Gauteng and surrounding areas.</p>
+              </div>
+            </div>
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <button class="faq-toggle" aria-expanded="false">
+                <h3 itemprop="name">Does Xpert Tilers offer free quotes?</h3>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">Yes! Contact us at 073-456-7890 for a free, no-obligation quote. We believe in transparent pricing with no hidden costs.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Ready to Get Started?</h2>
+        <p>Contact Xpert Tilers today for a free, no-obligation quote. We're ready to help!</p>
+        <a href="tel:0734567890" class="btn btn-white">📞 Call 073-456-7890</a>
+    </section>
+
     <footer>
-        <p>&copy; 2026 Xpert Tilers. All rights reserved. | Serving Pretoria, Gauteng with pride.</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-mark">XT</div>
+                <p>Xpert Tilers — Professional floor tiling in Pretoria, Gauteng. Quality you can trust.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#faq">FAQ</a>
+                <a href="tel:0734567890">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="tel:0734567890">073-456-7890</a>
+                <a href="#">280 Retief Street, Pretoria West, Pretoria</a>
+                
+        <div class="social-links">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://ru.linkedin.com/company/tile-expert-ltd" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+<a href="https://www.facebook.com/www.tiles4all.co.za/posts/tiles-factory-prices-visit-us-at-booysens-corlett-pretoria-west-tembisa-polokwan/4050872048344739/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copy">&copy; 2026 Xpert Tilers. All rights reserved.</div>
+        </div>
     </footer>
 
-    <!-- Scroll Animation -->
     <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+        // Sticky nav
+        const nav=document.getElementById('nav');
+        window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>50)});
+        
+        // Scroll reveal
+        const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
+        document.querySelectorAll('.reveal,.service-card').forEach(el=>obs.observe(el));
+        
+        // FAQ toggle
+        document.querySelectorAll('.faq-toggle').forEach(btn=>{
+            btn.addEventListener('click',()=>{
+                const expanded=btn.getAttribute('aria-expanded')==='true';
+                btn.setAttribute('aria-expanded',!expanded);
+                const answer=btn.nextElementSibling;
+                answer.style.maxHeight=expanded?'0':answer.scrollHeight+'px';
             });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.service-card, .faq-item, .contact-card').forEach(el => {
-            el.classList.add('fade-in');
-            observer.observe(el);
+        });
+        
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{
+            a.addEventListener('click',e=>{
+                e.preventDefault();
+                const t=document.querySelector(a.getAttribute('href'));
+                if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+            });
         });
     </script>
 </body>
